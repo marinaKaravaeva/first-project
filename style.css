@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Ruslan Display";
+    src: url('fonts/RuslanDisplay-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BalsamiqSans";
+    src: url('fonts/BalsamiqSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "BalsamiqSans";
+    src: url('fonts/BalsamiqSans-Italic.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "BalsamiqSans";
+    src: url('fonts/BalsamiqSans-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BalsamiqSans";
+    src: url('fonts/BalsamiqSans-BoldItalic.ttf');
+    font-weight: bold;
+    font-style: italic;
+}
+body{
+   font-family: "BalsamiqSans";
+   color: white;
+   margin: 0;
+}
+
+.header{
+    background-color: black;
+    text-align: center;
+    font-family: "Ruslan Display";
+    text-transform: uppercase;
+    width: 100%;
+    height: 10vh;
+    color: white;
+    padding-top: 5vh;
+    font-size: 3em;
+   /* box-sizing: border-box;*/
+}
+
+.main{
+    background-color: rgb(39,39,39);
+    height: 70vh;
+    text-align: center;
+ 
+
+}
+
+.main img{
+    height: 100%;
+}
+
+.main h1{
+    font-size: 3.5em;
+    padding-top:50px;
+    scroll-padding-bottom: 30px;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.catalog{
+    background-color:gray;
+}
+
+.catalog-item{
+    width: 31%;
+    float: left;
+    height: 85vh;
+    text-align: center;
+    padding-top: 40px;
+    margin: 2vh;
+}
+
+.catalog-item img{
+    height:  30%;
+    margin-bottom: 20px;
+}
+
+.clear{
+    clear: both;
+}
